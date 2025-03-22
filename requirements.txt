@@ -1,0 +1,9 @@
+
+casadi
+cvxpy
+cvxpygen
+matplotlib
+numpy
+Pillow
+scipy
+Sphinx
