@@ -1,8 +1,8 @@
-# SCVx
+# SCVxHopper
 
 ## Status of this Folder
 
-This folder contains an implementation of Succesessive convexification for 6-dof rocket powered langing with fixed final time based on [cite the paper]. It is part of the larger project for autonomous hopper landing, and is intended to perform online generation of feasible trajectories to be tracked by the mpc tracker.
+This folder contains an implementation of Succesessive convexification for 6-dof rocket powered langing with fixed final time based on EmbersArc (2018), Successive convexification for 6-DoF Mars rocket powered landing with free-final-time. arXiv. https://doi.org/10.48550/arXiv.1802.03827. It is part of the larger project for autonomous hopper landing, and is intended to perform online generation of feasible trajectories to be tracked by the mpc tracker.
 
 ### Current Status
 
@@ -23,9 +23,7 @@ This folder depends on the following packages/modules:
 
 The work in this folder is based on a public repository that has been extremely helpful for its development. The public repository is:
 
-**[Repository Name]**  
-
-EmbersArc (2018). Title of the repository. Available at: https://github.com/EmbersArc/SCvx
+EmbersArc (2018). SCVx. Available at: https://github.com/EmbersArc/SCvx
 
 This repository provided foundational code or insights which were modified or extended for the current use case. Special thanks to the original authors for their work.
 

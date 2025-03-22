@@ -9,15 +9,15 @@ It is possible to test the algorithms in closed loop simulation and to retreive 
 
 - **Overall Project Stage**: Complete
 - **Modules/Folders**:
-- **mpc**: Contains MPC implementations for different rocket dynamics models, including simulation and code generation versions.
-  - **dynamics**: Defines various models for the rocket dynamics, providing flexibility for different types of simulations.
-  - **utils**: A collection of utility functions used across different parts of the project (e.g., data processing, trajectory handling).
+  - **mpc**: Contains MPC implementations for different rocket dynamics models, including simulation and code generation versions.
+  - **dynamics**: Defines various models for the rocket dynamics.
+  - **utils**: A collection of utility functions used across different parts of the project.
   - **simulation**: Contains functions necessary for setting up and running the closed loop simulation.
   - **Reference_Trajectories**: This folder contains text or `.npz` files with reference trajectory data used for testing and simulation.
 
 
 - **Next Steps**: 
-- **Real-Time Implementation**: Currently, the interpolation for retrieving Jacobian slices and reference trajectories during each MPC iteration is implemented in Python. For real-time use, a C implementation of this interpolation is required to meet real-time performance demands.
+  - **Real-Time Implementation**: Currently, the interpolation for retrieving Jacobian slices and reference trajectories during each MPC iteration is implemented in Python. For real-time use, a C implementation of this interpolation is required to meet real-time performance demands.
 
 ---
 
