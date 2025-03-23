@@ -1,6 +1,5 @@
 # SCVxHopper
 
-## Status of this Folder
 
 This folder contains an implementation of Successive convexification for 6-dof rocket powered landing with fixed final time based on: Successive convexification for 6-DoF Mars rocket powered landing with free-final-time. arXiv. https://doi.org/10.48550/arXiv.1802.03827.
  It is part of the larger project for autonomous hopper landing, and is intended to perform online generation of feasible trajectories to be tracked by the mpc tracker.
@@ -10,6 +9,11 @@ This folder contains an implementation of Successive convexification for 6-dof r
 - **Development Stage**: In Progress
 - **Known Issues**: Code is still very messy but functional, documentation not present.
 - **Next Steps**: Make it real time operational by generating code with cvxpygen, furthermore, an implementation which uses thrust derivatives as inputs and thrusts as states is necessary.
+
+## How to Run 
+
+
+Run the main.py, trajectory parameters can be changed in the constructor of Rocket_Model.py
 
 ### Dependencies
 

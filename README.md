@@ -28,6 +28,7 @@ To quickly get an overview of the functionalities in this project, you can run t
 ---
 ## Dependencies
 Python Version: Python 3.12.4
+
 To install the dependencies, run the following command:
 
 ```bash
