@@ -72,15 +72,15 @@ Finally, all parameters are stored in a JSON file (`params.json`) for easy acces
 
 
 Mass_Flag = 0
-SCVX_Flag = 1
+SCVX_Flag = 0
 if SCVX_Flag == 1:
     Trajectory_Flag = 'SCVx'
-    filename = 'Reference_Trajectories/SCVx/SCVx_0_20_60_tf60.npz'
+    filename = 'Reference_Trajectories/SCVx/Divert_Land_Long.npz'
     Reference_Interpolation_Points = 2002
 else:
     Trajectory_Flag = 'Thorpy'
     filename = 'Reference_Trajectories/Thorpy/Divert_Land.txt'
-    Reference_Interpolation_Points = 1002
+    Reference_Interpolation_Points = 2002
 
 
 
@@ -146,8 +146,8 @@ Nu = 3
 
 
 #MPC Parameters
-N_mpc = 20
-T_mpc = 2
+N_mpc = 30
+T_mpc = 3
 h_mpc = T_mpc / N_mpc
 
 

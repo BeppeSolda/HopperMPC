@@ -437,7 +437,7 @@ class RocketDynamics:
         xn[3:7] = xn[3:7] / q_norm
         return xn
 
-    def rocket_dynamics_rk4_SIM_Mass(self, x, u, h):
+    def rocket_dynamics_rk4_SIM_Mass_Thorpy(self, x, u, h):
         """
         Apply Runge-Kutta 4th order integration to the rocket dynamics model used for closed loop simulation to validate tracking accuracy on Thorpy reference trajectories.
         Takes mass variation into account.
