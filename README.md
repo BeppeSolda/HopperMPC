@@ -17,16 +17,11 @@ It is possible to test the algorithms in closed loop simulation and to retreive 
 
 
 - **Next Steps**: 
-  - **Real-Time Implementation**: Currently, the interpolation for retrieving Jacobian slices and reference trajectories during each MPC iteration is implemented in Python. For real-time use, a C implementation of this interpolation is required to meet real-time performance demands.
+  - **Real-Time Implementation**: Currently, the interpolation for retrieving Jacobian slices and reference trajectories during each MPC iteration is implemented in Python. For real-time use, a C implementation of this interpolation is required.
 
 ---
 
 ## Dependencies
--numpy
--scipy
--cvxpy
--cvxpygen
--casadi
 
 To install the dependencies, run the following command:
 

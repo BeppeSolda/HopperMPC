@@ -2,7 +2,8 @@
 
 ## Status of this Folder
 
-This folder contains an implementation of Succesessive convexification for 6-dof rocket powered langing with fixed final time based on EmbersArc (2018), Successive convexification for 6-DoF Mars rocket powered landing with free-final-time. arXiv. https://doi.org/10.48550/arXiv.1802.03827. It is part of the larger project for autonomous hopper landing, and is intended to perform online generation of feasible trajectories to be tracked by the mpc tracker.
+This folder contains an implementation of Successive convexification for 6-dof rocket powered landing with fixed final time based on: Successive convexification for 6-DoF Mars rocket powered landing with free-final-time. arXiv. https://doi.org/10.48550/arXiv.1802.03827.
+ It is part of the larger project for autonomous hopper landing, and is intended to perform online generation of feasible trajectories to be tracked by the mpc tracker.
 
 ### Current Status
 
