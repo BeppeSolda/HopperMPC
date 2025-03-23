@@ -2,9 +2,10 @@ casadi==3.6.7
 cvxpy==1.5.1
 cvxpygen==0.3.5
 jax==0.4.30
-matplotlib==3.10.1
-numpy==2.2.4
+matplotlib
+numpy
 pybind11==2.13.6
-scipy==1.15.2
+scipy
 setuptools==70.0.0
-sympy==1.12.1
+sympy
+

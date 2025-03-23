@@ -20,9 +20,14 @@ It is possible to test the algorithms in closed loop simulation and to retreive 
   - **Real-Time Implementation**: Currently, the interpolation for retrieving Jacobian slices and reference trajectories during each MPC iteration is implemented in Python. For real-time use, a C implementation of this interpolation is required.
 
 ---
+## Get Started: Overview through `example.ipyb`
 
+To quickly get an overview of the functionalities in this project, you can run the `example.ipyb` notebook. This notebook showcases the basic usage of how perform code generation of Jacobians and of the mpc using casadi and cvxpygen, choose reference trajectories, and run closed-loop simulations.
+
+
+---
 ## Dependencies
-
+Python Version: Python 3.12.4
 To install the dependencies, run the following command:
 
 ```bash
